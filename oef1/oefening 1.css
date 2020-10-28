@@ -1,5 +1,28 @@
-td{
+table {
+    border: solid 1px black;
+    border-collapse: collapse;
+}
+
+td, th {
     border: solid 1px black;
     text-align: center;
-    font-family: "Roboto Light";
+    color: white;
+    font-family: Roboto;
+    font-size: 14px;
+}
+
+thead, tfoot {
+    background-color: #27426d;
+}
+
+tbody td {
+    column-width: 80px;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #6facff;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #4f8cef;
 }
